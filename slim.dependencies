@@ -1,27 +1,27 @@
 [
   {
     "repository": "CyanogenMod/android_device_samsung_qcom-common",
-    "target_path": "device/samsung/qcom-common"
+    "target_path": "device/samsung/qcom-common",
     "branch":      "cm-11.0"
   },
   {
    "repository": "CyanogenMod/android_device_samsung_msm8960-common",
-    "target_path": "device/samsung/msm8960-common"
+    "target_path": "device/samsung/msm8960-common",
     "branch":      "cm-11.0"
   },
   {
     "repository": "CyanogenMod/android_device_samsung_hlte-common",
-    "target_path": "device/samsung/hlte-common"
+    "target_path": "device/samsung/hlte-common",
     "branch":      "cm-11.0"
   },
   {
     "repository": "CyanogenMod/android_kernel_samsung_hlte",
-    "target_path": "kernel/samsung/hlte"
+    "target_path": "kernel/samsung/hlte",
     "branch":      "cm-11.0"
   },
   {
     "repository": "android_hardware_samsung",
-    "target_path": "hardware/samsung"
+    "target_path": "hardware/samsung",
     "branch":      "cm-11.0"
   },
   {
