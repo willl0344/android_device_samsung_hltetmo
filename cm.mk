@@ -15,19 +15,19 @@
 # Inherit device configuration
 $(call inherit-product, device/samsung/hltetmo/full_hltetmo.mk)
 
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+# Inherit some common SLIM stuff.
+$(call inherit-product, vendor/slim/config/gsm.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common SLIM stuff.
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=hltetmo TARGET_DEVICE=hltetmo BUILD_FINGERPRINT="samsung/hltetmo/hltetmo:4.3/JSS15J/N900TUVUBMI7:user/release-keys" PRIVATE_BUILD_DESC="hltetmo-user 4.3 JSS15J N900TUVUBMI7 release-keys"
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := cm_hltetmo
+PRODUCT_NAME := slim_hltetmo
 PRODUCT_DEVICE := hltetmo
-PRODUCT_MODEL := SM-N900T
+PRODUCT_MODEL := SM-N900TPRODUCT_MANUFACTURER := Samsung
