@@ -30,4 +30,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=hltetmo TARGET_DEVICE=hltetmo BUILD
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := slim_hltetmo
 PRODUCT_DEVICE := hltetmo
-PRODUCT_MODEL := SM-N900TPRODUCT_MANUFACTURER := Samsung
+PRODUCT_MODEL := SM-N900T
+PRODUCT_MANUFACTURER := Samsung
