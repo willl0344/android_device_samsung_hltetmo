@@ -1,42 +1,27 @@
 [
   {
-    "repository": "SlimRoms/device_samsung_qcom-common",
+    "repository": "willl0344/device_samsung_qcom-common",
     "target_path": "device/samsung/qcom-common",
-    "branch":      "kk4.4"
+    "branch":      "goodold"
   },
   {
-   "repository": "SlimRoms/device_samsung_msm8960-common",
+   "repository": "willl0344/device_samsung_msm8960-common",
     "target_path": "device/samsung/msm8960-common",
-    "branch":      "kk4.4"
+    "branch":      "goodold"
   },
   {
-    "repository": "CyanogenMod/android_device_samsung_hlte-common",
-    "target_path": "device/samsung/hlte-common",
-    "branch":      "cm-11.0"
-  },
-  {
-    "repository": "CyanogenMod/android_kernel_samsung_hlte",
-    "target_path": "kernel/samsung/hlte",
-    "branch":      "cm-11.0"
-  },
-  {
-    "repository": "SlimRoms/hardware_samsung",
+    "repository": "willl0344/hardware_samsung",
     "target_path": "hardware/samsung",
-    "branch":      "kk4.4"
+    "branch":      "goodold"
   },
   {
-    "repository":  "SlimRoms/hardware_qcom_display-caf",
-    "target_path": "hardware/qcom/display-caf",
-    "branch":      "kk4.4"
+    "repository": "willl0344/android_kernel_samsung_hlte",
+    "target_path": "kernel/samsung/hlte",
+    "branch":      "goodold"
   },
   {
-    "repository":  "SlimRoms/hardware_qcom_audio-caf",
-    "target_path": "hardware/qcom/audio-caf",
-    "branch":      "kk4.4"
-  },
-  {
-    "repository":  "SlimRoms/hardware_qcom_media-caf",
-    "target_path": "hardware/qcom/media-caf",
-    "branch":      "kk4.4"
+    "repository": "willl0344/android_device_samsung_hlte-common",
+    "target_path": "device/samsung/hlte-common",
+    "branch":      "goodold"
   }
 ]
